@@ -121,7 +121,7 @@
         <div id="fmsg" class="w3-container w3-red w3-hide">
           <span onclick="this.parentElement.className='w3-container w3-red w3-hide'" class="w3-closebtn">&times;</span>
           <h3>Failed!</h3>
-          <p>Server not responding. Give me a call +91 9560781634 or email me garvit@webices.com</p>
+          <p>Server not responding. Give me a call +91 9555322978 or email me ritesh@webices.com</p>
         </div>
           <div class="w3-group">
             <button class="w3-margin-32 w3-btn w3-hover-white w3-text-white w3-border w3-border-white w3-transparent w3-round-large w3-large w3-padding-xlarge" onClick="sendIt()">Send Message</button>
@@ -143,7 +143,7 @@ var Email = document.getElementById("Email").value;
   var Phone = document.getElementById("Phone").value;
   var Message = document.getElementById("Message").value;
 var xhr = new XMLHttpRequest();
-xhr.open('POST', '//formspree.io/ricky@webices.com', true);
+xhr.open('POST', '//formspree.io/ritesh@webices.com', true);
 xhr.setRequestHeader("Accept", "application/json");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.send("Name=" + Name + "&_replyto=" + Email + "&Phone=" + Phone + "&Message=" + Message);
@@ -159,7 +159,7 @@ xhr.send("Name=" + Name + "&_replyto=" + Email + "&Phone=" + Phone + "&Message="
   xhrt.open('POST', 'https://api.telegram.org/bot189613307:AAFETQJVb0Ok4Y43Z56fmh-rCRkeletAqzw/sendMessage', true);
   xhrt.setRequestHeader("Accept", "application/json");
   xhrt.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  xhrt.send("chat_id=210397403&text=New Form Submission on ricky.webices.com :\nName : " + Name +"\nEmail : " + Email + "\nPhone : " + Phone + "\nMessage : " + Message);
+  xhrt.send("chat_id=210397403&text=New Form Submission on ritesh.webices.com :\nName : " + Name +"\nEmail : " + Email + "\nPhone : " + Phone + "\nMessage : " + Message);
 }
 </script>
 </body>
